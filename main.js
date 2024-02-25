@@ -23,7 +23,7 @@ const heatmapMaterial = new THREE.MeshBasicMaterial({
 });
 
 // Load GLB model
-loader.load("/public/bin.glb", (gltf) => {
+loader.load("public/bin.glb", (gltf) => {
   const model = gltf.scene;
 
   model.traverse((child) => {
