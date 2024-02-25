@@ -23,7 +23,7 @@ const heatmapMaterial = new THREE.MeshBasicMaterial({
 });
 
 // Load GLB model
-loader.load("./assets/Porsche.glb", (gltf) => {
+loader.load("./public/Porsche.glb", (gltf) => {
   const model = gltf.scene;
 
   model.traverse((child) => {
